@@ -31,8 +31,8 @@ record_id: Weather record code
 ts: Date and time the record was taken (rounded to the nearest hour)
 temperature: Temperature when the record was taken
 description: Brief description of the weather conditions, for example, "light rain" or "partly cloudy"
-Esquema de la tabla
-image
+
+![Screenshot (495)](https://github.com/HansGuerraVega/SQL_DataAnalysis_TravelCompany/blob/ffe605791f4a7b7e16bb7f56e881042f459e5dcc/tables_scheme.png)
 
 Note: There is no direct connection between the trips and weather_records tables in the database. However, you can still use a JOIN to link them using the time the trip started (trips.start_ts) and the time the weather record was taken (weather_records.ts).
 
